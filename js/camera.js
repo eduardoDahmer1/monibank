@@ -10,7 +10,7 @@ let imagemURL = '';
 
 botaoIniciarCamera.addEventListener('click', async function () {
     const iniciarVideo = await navigator.mediaDevices
-        .getUserMedia({ video: true, audio: false });
+    .getUserMedia({ video: true, audio: false });
 
     botaoIniciarCamera.style.display = "none";
     campoCamera.style.display = "block";
